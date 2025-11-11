@@ -9,7 +9,16 @@ class Sorting:
                     array[j],array[j+1]=array[j+1],array[j]
 
     def selectionSort(self,array):
-        pass
+
+        for i in range(1,len(array)-1):
+            min=i
+            for j in range(i+1,len(array)):
+                if array[j]<array[i]:
+                    min=j
+            if min!=i:
+                array[i],array[min]=array[min],array[i]
+
+
 
     def insertionSort(self,array):
         pass
@@ -33,5 +42,5 @@ class Sorting:
 
 s= Sorting()
 l1=[1,5,3,2,9]
-s.bubbleSort(l1)
+s.selectionSort(l1)
 print(l1)
