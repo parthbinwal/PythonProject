@@ -8,6 +8,28 @@ class Sorting:
                 if(array[j+1]<array[j]):
                     array[j],array[j+1]=array[j+1],array[j]
 
+    def selectionSort(self,array):
+        pass
+
+    def insertionSort(self,array):
+        pass
+
+    def mergeSort(self,array):
+        pass
+
+    def quickSort(self,array):
+        pass
+
+    def heapSort(self,array):
+        pass
+
+    def radixSort(self,array):
+        pass
+
+    def bucketSort(self,array):
+        pass
+
+
 
 s= Sorting()
 l1=[1,5,3,2,9]
