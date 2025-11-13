@@ -9,7 +9,6 @@ class Sorting:
                     array[j],array[j+1]=array[j+1],array[j]
 
     def selectionSort(self,array):
-
         for i in range(1,len(array)-1):
             min=i
             for j in range(i+1,len(array)):
@@ -18,10 +17,8 @@ class Sorting:
             if min!=i:
                 array[i],array[min]=array[min],array[i]
 
-
-
     def insertionSort(self,array):
-        pass
+
 
     def mergeSort(self,array):
         pass
